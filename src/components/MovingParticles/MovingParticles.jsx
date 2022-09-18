@@ -6,6 +6,9 @@ import { useCallback, useMemo } from "react";
 const MovingParticles = () => {
     const options = useMemo(() => {
         return {
+            fullScreen: {
+                zIndex: -1,
+            },
             interactivity: {
                 events: {
                     onHover: {
