@@ -16,7 +16,6 @@ const app = new Clarifai.App({
 });
 
 
-
 class App extends Component {
   constructor() {
     super();
